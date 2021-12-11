@@ -4,7 +4,7 @@
 FROM jupyter/scipy-notebook
 RUN conda install -c anaconda pytest==6.2.* -y 
 
-# Noting that these are for future reference for nonjupyter builds
+# Noting that these are for future reference for non-jupyter builds
 # docker run --rm -it -p 8888:8888 jupyter/scipy-notebook:33add21fab64*
 # docker run --rm -it debian:stable
 # apt-get install r-base r-base-dev -Y
